@@ -1,0 +1,9 @@
+{"kind":"reading","slot":0,"tick":0,"value":11}
+{"kind":"mark","slot":0,"position":0}
+{"kind":"reading","slot":1,"tick":0,"value":22}
+{"kind":"reading","slot":2,"tick":0,"value":33}
+{"kind":"reading","slot":3,"tick":0,"value":44}
+{"kind":"mark","slot":3,"position":0}
+{"kind":"reading","slot":4,"tick":0,"value":55}
+{"kind":"mark","slot":4,"position":0}
+{"kind":"end"}

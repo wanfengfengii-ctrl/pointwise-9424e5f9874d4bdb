@@ -1,0 +1,6 @@
+{"kind":"reading","slot":0,"tick":0,"value":8}
+{"kind":"mark","slot":0,"position":0}
+{"kind":"reading","slot":1,"tick":3,"value":17}
+{"kind":"reading","slot":2,"tick":6,"value":5}
+{"kind":"mark","slot":2,"position":6}
+{"kind":"end"}
