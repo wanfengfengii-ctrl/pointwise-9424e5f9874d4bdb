@@ -11,13 +11,9 @@ from source.replay import replay_events
 
 def build_evidence_pack(record: RunRecord, session: CaptureSession) -> EvidencePack:
     session.check_ready()
-    readings = session.slots.readings()
-    latest_slot_by_tick = {reading.tick: reading.slot for reading in readings}
     slots = []
-    for reading in readings:
+    for reading in session.slots.readings():
         mark = session.marks.for_slot(reading.slot)
-        if mark is None and latest_slot_by_tick[reading.tick] != reading.slot:
-            continue
         slots.append(EvidenceSlot(
             slot=reading.slot,
             tick=reading.tick,
